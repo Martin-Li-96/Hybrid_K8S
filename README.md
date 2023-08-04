@@ -1,7 +1,7 @@
 #Raspberry Pi : *(Cgroup memory missing)*
 ```bash
 #Ubuntu 20.04 or 22.04
-sudo vi /etc/firmware/cmdline.txt
+sudo vi /boot/firmware/cmdline.txt
 
 Append following command
 cgroup_enable=cpuset
